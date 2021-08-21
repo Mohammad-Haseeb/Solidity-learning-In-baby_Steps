@@ -3,9 +3,12 @@ contract Rule3{
     
    // Rule 3 (A)
     // variables of value type within function are stored in memory location by default ; 
-function RuleA() public{
+    int public v=12;
+function RuleA() public returns(int){
     
-    int x=23; //corrent
+    int x=v; //corrent it's coping value
+   
+    return(x);
     //int memory v=10;  //error
     //int storage y=11; //error
     
@@ -18,6 +21,22 @@ function  RuleB() public{
      
     //string  x="Hello"; //error
     //string storage y="Hello"; //error
+}
+
+   //Rule 3 (C)
+   //reference types decleared within function can be store in storage by referencing state variables
+   string public Name="XYZ";
+function RuleC() public returns(string memory){
+    string storage FatherName=Name;
+    Name="Hello"; 
+    Name="Changing";
+    // Important Note We will refer storage refernce types in local storage refernce type then 
+    // It'll refer only refernce changing one value will change other like in that function
+    
+    
+    
+    return(FatherName);
+    
 }
      
 }
