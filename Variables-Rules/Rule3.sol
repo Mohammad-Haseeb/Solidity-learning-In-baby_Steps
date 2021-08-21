@@ -38,5 +38,17 @@ function RuleC() public returns(string memory){
     return(FatherName);
     
 }
+
+//Rule 3 (D)
+// variable  of  value type  in function can't be sotre in storage location
+
+function RuleD() public{
+    // int storage x=12;  //error
+    
+}
+
+
+
+
      
 }
