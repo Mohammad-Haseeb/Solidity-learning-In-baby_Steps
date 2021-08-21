@@ -48,6 +48,10 @@ function RuleD() public{
 }
 
 
+// Rule 3 (E)
+
+// Mapping always decleared at storage level it can't be decleared in function or in memory location. 
+// But Mapping in a function can refer yo mapping decleared as state variable
 
 
      
