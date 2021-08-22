@@ -1,6 +1,6 @@
 pragma solidity 0.8.7;
 
-
+// importan note we can inherit multiple contract in  one contract like contract Ali is Human,Student 
 contract Human{
     int age ;
     event messageCheck(string );
