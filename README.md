@@ -5,7 +5,8 @@
  you can use it in function to check specific criteria to meet some kind of condition in case of false result execution of function will stop
  
  # Multiple Assignment
-<!--  function multipleReturns() internal returns(uint a, uint b, uint c) {
+ ```
+ function multipleReturns() internal returns(uint a, uint b, uint c) {
   return (1, 2, 3);
 }
 
@@ -16,4 +17,5 @@ function processMultipleReturns() external {
   // This is how you do multiple assignment:
   (a, b, c) = multipleReturns();
 }
-  -->
+```
+ 
