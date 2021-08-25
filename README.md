@@ -1,5 +1,5 @@
 # Solidity-learning-In-baby_Steps
- I try to explain each and every rule of solidity according to 0.8.7 version.
+ ##### I tried to explain all common concepts and rules of solidity according to 0.8.7 version.
  ## Require Statement
  ```
  require(ownerZombieCount[msg.sender] == 0); 
