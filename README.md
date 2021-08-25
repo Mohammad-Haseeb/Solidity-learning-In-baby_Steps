@@ -30,5 +30,5 @@ function getLastReturnValue() external {
 
 ```
 # Function
-### Function  are internal by default,it means it can be only access from derived contract or contract i nwhich we defined them.But it can be internal ,  external, public, private  
+### Function  are internal by default,it means it can be only access from derived contract or contract in which we defined them.But it can be internal ,  external, public, private  
 
