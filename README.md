@@ -1,4 +1,5 @@
 # Solidity-learning-In-baby_Steps
+![Image of Solidity logo](shorturl.at/dfvFW)
  ##### I tried to explain all common concepts and rules of solidity according to 0.8.7 version.
  ## Require Statement
  ```
