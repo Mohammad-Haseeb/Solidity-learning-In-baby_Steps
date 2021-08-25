@@ -1,5 +1,5 @@
 # Solidity-learning-In-baby_Steps
-![Image of Solidity logo](shorturl.at/dfvFW)
+![Image of Solidity logo](https://res.cloudinary.com/practicaldev/image/fetch/s--Rxmub8vz--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5jd65usaioipnkv5xs5a.png)
  ##### I tried to explain all common concepts and rules of solidity according to 0.8.7 version.
  ## Require Statement
  ```
