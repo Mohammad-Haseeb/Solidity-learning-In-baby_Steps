@@ -22,6 +22,7 @@ contract Human {
 // if we don't know about signature of fucntion  
 
 contract Implementation{
+    uint public number;
     
     function callFunction(address Human) public returns(bytes memory data,bool isbool){
              bytes memory method =  abi.encodeWithSignature( "add()");
@@ -35,6 +36,7 @@ contract Implementation{
         // >>> first thing first Important note you have define size of argument in signature like we define below
         
         // When we use call method like we use below it'll change state of Human contract in which we have defined function
+        // So, delegatecall is changin state of Implementation contract means it is changing state in which  it is calling
         bytes memory method = abi.encodeWithSignature("addition(uint256)",a);
         (isbool,data)= Human.call(method);
     }
