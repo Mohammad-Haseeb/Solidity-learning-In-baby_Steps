@@ -21,6 +21,8 @@ contract Human {
 // we use call method with adress to call function
 // if we don't know about signature of fucntion  
 
+// statecall is use for  pure and functions
+
 contract Implementation{
     uint public number;
     
